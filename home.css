@@ -16,7 +16,6 @@
 .main-left {
     width: 50%;
     min-height: 1000px;
-    background-color: red;
     float: left;
     
 }
@@ -24,7 +23,6 @@
 .main-right {
     width: 50%;
     min-height: 1100px;
-    background-color: pink;
     float: right;
 }
 
@@ -65,6 +63,19 @@
     height: 50px;
 }
 
+.section-small > img{
+    width: 220px;
+    height: 200px;
+    position: relative;
+}
+
+.section-medium > img{
+    width: 460px;
+}
+
+.section-large >img{
+    width: 460px;
+}
 
 video
 {
