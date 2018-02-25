@@ -52,7 +52,7 @@
 
 .section-large {
     background-color: yellow;
-    min-height: 310px;
+    height: 310px;
     width: 460px;
     float: left;
     border: 1px;
@@ -63,4 +63,12 @@
 #footer {
     clear: both;
     height: 50px;
+}
+
+
+video
+{
+    padding: 0px;
+    width: 100% !important;
+    height: 100% !important;
 }
