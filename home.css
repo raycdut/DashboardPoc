@@ -36,6 +36,12 @@
     border: 1px;
     border-radius: 5px;
     margin: 10px;
+    transition: 0.2s;
+}
+
+.section-large:hover, .section-medium:hover, .section-small:hover{
+    transform: scale(1.05);
+    z-index: 10000;
 }
 
 .section-medium {
